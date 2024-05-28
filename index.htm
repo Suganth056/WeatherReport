@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Prediction</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="search-results">
+            <input type="text" class="search-value" value="Namakkal">
+            <button type="submit" class="search-icon"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="second-portion">
+            <center>
+                <img src="./images/cloudy.png" alt="sun-img" width="100px" height="100px" class="images">
+                <h1 class="degreeIndicator">22<span><sup>o</sup>c</span></h1>
+                <h2 class="city-name">Namakkal</h2>
+            </center> 
+        </div>
+        <div class="details humidity windspeed">
+            <div class="downSec">
+                <i class="fa-solid fa-water"></i>
+                <h3><span class="percentage com">64</span></h3>
+                <span class="rel">Humidity</span>
+            </div>
+            <div class="downSec">
+                <i class="fa-solid fa-wind"></i>
+                <h3><span class="km com">18</span>Km/h</h3>
+                <span class="rel">Wind Speed</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
