@@ -1,11 +1,12 @@
 *{
     margin: 0px;
+    padding: 0px;
 }
 body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 96vh;
+    height: 100vh;
     background-color: black;
 }
 .container{
@@ -68,6 +69,23 @@ body{
 }
 .details .downSec .com{
     padding:0px 5px;
+
+}
+.downSec .rel{
+    position: relative;
+    top: 20px;
+    right: 50px;
+}
+
+@media (max-width:375px){
+
+    
+    .search-results input{
+        width:70%;
+        font-size: 14px;
+        margin-right: 10px;
+    }   
+}
 
 }
 .downSec .rel{
